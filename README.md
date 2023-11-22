@@ -1,1 +1,3 @@
-# global-solution-2023
+Global Solution Engenharia de Software 1º ano
+
+Desenvolvida por Rafael Nascimento e Vinicius Taiki da 1ESPA

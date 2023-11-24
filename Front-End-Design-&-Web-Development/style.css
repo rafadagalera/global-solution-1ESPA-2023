@@ -98,10 +98,12 @@ p {
 #contato-container {
     border: 1px solid seagreen;
     max-width: 500px;
-    margin-top: 30px    ;
+    margin-top: 90px  ;
     text-align: center;
     background: #fff;
     border-radius: 10px;
+
+    max-height: 500px;
 }
 
   .form-control {
@@ -151,10 +153,36 @@ p {
   .section-contato {
     margin: 80px;
     display: flex;
-    flex-direction:;
+    flex-direction:column;
+    max-width: 700px;
 
+  }
+
+  .image {
+    width: 200px;
+    margin-top: 30px;
   }
 
   .section-contato h1 {
     font-size: 76px;
+  }
+
+  .pagina-contato {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .foto1 {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .foto2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-contato p {
+    margin:40px;
   }

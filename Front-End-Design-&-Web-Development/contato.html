@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>]
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <p>test</p>
+
+    <div>
+        <header class = "header"> 
+            <a class= 'logo  'href="Logo">Logo</a>
+            <nav class="navegacao">
+                <a href="index.html">Home</a>
+                <a href="problema.html">Problema e solução</a>
+                <a href="solucao.html">Demonstração de solução</a>
+                <a href="#contato-container">Contato</a>
+            </nav>
+        </header>
+    </div>
+
+    <section class="section-contato">
+
+        <h1>A sua opinião importa para nós.</h1>
+
+        <div id = 'contato-container'>
+
+            <form>
+    
+                <div class="form-control">
+                  <input type="text" id="nome" placeholder="Digite seu nome" />
+                </div>
+          
+                <div class="form-control">
+                  <input type="text" id="email" placeholder="Digite seu email" />
+                </div>
+          
+                <div class="form-control">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Digie sua mensagem!"></textarea>
+                </div>
+          
+                <button type="submit">Enviar</button>
+          
+          
+              </form>
+    
+    
+        </div>
+    </section>
+
+    <script src="back.js"></script>
+
 </body>
-</html>

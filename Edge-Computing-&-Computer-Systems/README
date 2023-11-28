@@ -1,1 +1,8 @@
+Para a Global Solution em parceria com a Hapvida Notredame Intermédica, nós decidimos abordar a questão da assistência à pessoas com mobilidade reduzida. Sabemos que pessoas com a mobilidade reduzida muitas vezes contam com a assistência de um familiar ou um cuidador, pois se encontram em constante risco de queda.
 
+Apresentamos uma ideia para um protótipo de um dispositivo que, à partir de um sensor tilt, monitora se o paciente sofreu uma queda, e caso detecte a existência de uma, soa uma buzina para alertar familiares ou cuidadores para socorrer o paciente.
+O dispositivo pode ser ligado e desligado usando um potenciômetro para evitar que a buzina soe à qualquer momento, e pode ser carregado pelo paciente à todo momento, seja implementando o dispositivo em uma bengala, em um broche, ou qualquer outra forma que convenha o paciente, contanto que o dispositivo fique em
+repouso enquanto o paciente anda ou fica sentado.
+
+A aplicação é de simples uso. Ao girar a chave do potenciômetro para a direita, o dispositivo está "ligado". Ao girar a chave para a esquerda, o dispositivo está "desligado". Enquanto o dispositivo está ligado, ele monitora o sensor de tilt, e, quando este indicar uma inclinação acima do limite permitido, 
+um sinal é enviado para o microcontrolador que aciona uma buzina enquanto o dispositivo está ligado. A buzina só será desligada quando o paciente for socorrido e o a leitura do sensor normalizar.

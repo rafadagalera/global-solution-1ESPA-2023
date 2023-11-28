@@ -103,7 +103,7 @@ p {
   background: #fff;
   border-radius: 10px;
   max-height: 450px;
-
+  margin-bottom: 40px;
 }
 
 .form-control {
@@ -194,8 +194,30 @@ textarea {
 
 }
 
+.container-rm {
+  position: absolute;
+  
+  right: 350px;
+  top: 250px;
+  width: 500px;
+  height: 600px;
+ 
+  font-size: 30px;
+}
 
+.foto-rm {
+  width: 250px;
+}
 
+#pagina-atual {
+  color: lightgreen;
+}
 
+th {
+  text-align: left;
+  padding-bottom: 10px;
+}
 
-
+td {
+  padding-bottom: 10px;
+}

@@ -1,0 +1,29 @@
+// definindo os pinos do potenciometro, do sensor tilt e da buzina  
+# define onOffPin A0
+int piezo = 10;
+int sensor = 8;
+ 
+// iniciando função setup
+void setup(){
+// declarando a entrada do sensor como input, da buzina como output e iniciando serial
+  pinMode(sensor,INPUT);
+  pinMode(piezo,OUTPUT);
+  Serial.begin(9600);
+
+}
+// iniciando a função loop
+void loop(){
+// imprimindo a leitura do potenciômetro na serial
+  Serial.println(analogRead(onOffPin));
+// criando uma estrutura if que verifica se a leitura do potenciômetro está mais para a direita do que para a esquerda
+// caso o potenciômetro esteja para a direita, o dispositivo está funcionando.
+  if (analogRead(onOffPin) > 512)
+// declaramos a variável read como sendo a leitura do sensor tilt
+  {   int read = digitalRead(sensor); 
+// utilizando a buzina para monitorar o sensor tilt, caso o sensor detecte valores acima de um limite permitido, a buzina se aciona
+      digitalWrite(piezo,read);
+// adicionando delay	  
+      delay(2000);
+  }
+
+}

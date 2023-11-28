@@ -8,4 +8,4 @@ Segue o link para uma imagem gerada à partir de uma IA que ilustra um protótip
 A aplicação é de simples uso. Ao girar a chave do potenciômetro para a direita, o dispositivo está "ligado". Ao girar a chave para a esquerda, o dispositivo está "desligado". Enquanto o dispositivo está ligado, ele monitora o sensor de tilt, e, quando este indicar uma inclinação acima do limite permitido, 
 um sinal é enviado para o microcontrolador que aciona uma buzina enquanto o dispositivo está ligado. A buzina só será desligada quando o paciente for socorrido e o a leitura do sensor normalizar.
 
-Link para o simulador: https://www.tinkercad.com/things/alZHvwMmfOC-global-solution-2023-1espa
+Link para o simulador: https://www.tinkercad.com/things/lfJN1mHbPkr-global-solution-2023-1espa-edge

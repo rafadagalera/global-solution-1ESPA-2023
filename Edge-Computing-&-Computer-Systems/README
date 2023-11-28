@@ -1,8 +1,11 @@
-Para a Global Solution em parceria com a Hapvida Notredame Intermédica, nós decidimos abordar a questão da assistência à pessoas com mobilidade reduzida. Sabemos que pessoas com a mobilidade reduzida muitas vezes contam com a assistência de um familiar ou um cuidador, pois se encontram em constante risco de queda.
+Para a Global Solution em parceria com a Hapvida Notredame Intermédica, nós decidimos abordar a questão da assistência à pessoas com mobilidade reduzida. Sabemos que pessoas com a mobilidade reduzida muitas vezes contam com a assistência de um familiar ou um cuidador, pois esses se encontram em constante risco de queda.
 
 Apresentamos uma ideia para um protótipo de um dispositivo que, à partir de um sensor tilt, monitora se o paciente sofreu uma queda, e caso detecte a existência de uma, soa uma buzina para alertar familiares ou cuidadores para socorrer o paciente.
-O dispositivo pode ser ligado e desligado usando um potenciômetro para evitar que a buzina soe à qualquer momento, e pode ser carregado pelo paciente à todo momento, seja implementando o dispositivo em uma bengala, em um broche, ou qualquer outra forma que convenha o paciente, contanto que o dispositivo fique em
-repouso enquanto o paciente anda ou fica sentado.
+O dispositivo pode ser ligado e desligado usando um potenciômetro para evitar que a buzina soe à qualquer momento, e pode ser carregado pelo paciente à todo momento. A ideia para o protótipo é que o dispositivo seja acoplado à uma bengala, pois dessa maneira o paciente pode carregar o dispositivo à todo momento,
+e contanto que o paciente se lembre de ligar e desligar o dispositivo utilizando o potenciômetro incluso, ele sempre estará em estado de repouso enquanto o paciente está de pé ou sentado. Há também a possibilidade de implementar o dispositivo em acessórios como broches e colares.
+Segue o link para uma imagem gerada à partir de uma IA que ilustra um protótipo desse dispositivo: https://prnt.sc/5quEnAg7Ve0I
 
 A aplicação é de simples uso. Ao girar a chave do potenciômetro para a direita, o dispositivo está "ligado". Ao girar a chave para a esquerda, o dispositivo está "desligado". Enquanto o dispositivo está ligado, ele monitora o sensor de tilt, e, quando este indicar uma inclinação acima do limite permitido, 
 um sinal é enviado para o microcontrolador que aciona uma buzina enquanto o dispositivo está ligado. A buzina só será desligada quando o paciente for socorrido e o a leitura do sensor normalizar.
+
+Link para o simulador: https://www.tinkercad.com/things/alZHvwMmfOC-global-solution-2023-1espa

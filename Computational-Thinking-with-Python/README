@@ -1,4 +1,18 @@
-Para a Global Solution em parceria com a Hapvida Notredame Intermédica, desenvolvemos uma solução que visa combater as elevadas filas de espera por atendimento médico e a falta de acessibilidade da saúde. Idealiza
+Para a Global Solution em parceria com a Hapvida Notredame Intermédica, desenvolvemos uma solução que visa combater as elevadas filas de espera por atendimento médico e a falta de acessibilidade da saúde. Idealizamos a criação de um método inovador de acompanhamento médico, possibilitando que o paciente passe pelo
+processo de triagem de maneira online.
+
+O processa da triagem acontecerá por meio de um website, onde o paciente fará o seu cadastro com nome, data de nascimento, cpf, email, senha e número de telefone. Essas informações ficaram salvas no sistema e o paciente pode então realizar o login no website, fornecendo o email e senha utilizados no cadastro.
+Em seguida, o paciente pode prencher uma série de formulários descrevendo os sintomas notados, medicamentos que o paciente usa, alergias e doenças em tratamento. Essas informações são armazenadas num prontuário único com o seu nome, data de nascimento, email para contato e data de preenchimento do formulário.
+O médico parceiro tem acesso à todos os prontuários e pode escolher acessá-los por nome do paciente. Adicionalmente, o médico pode buscar por todo o histórico de formulários enviados por um mesmo paciente.
+
+O arquivo é dividido em 3 segmentos: Back, Paciente e Profissional. Essa divisão é feita para simular a experiência de cada uma das partes interessadas no processo da triagem online.
+Back: Contém toda a parte funcional do programa. Aqui importamos as bibliotecas utilizadas, criamos dicionários e funções que poderão ser chamadas pelo paciente e pelo profissional em suas respectivas seções, além de poder visualizar todos os cadastros realizados.
+Paciente: Uma simulação da experiência do paciente. Nela o paciente apenas terá acesso às funções de cadastro, login, e prontuário. 
+Profissional: Uma simulação da experiência do profissional de saúde. Nela o profissional terá acesso aos prontuários existentes, bem como à função para buscar os prontuários de um paciente específico.
+
+Intruções para uso:
+- Execute todas as células do segmento Back antes de testar as funções.
+- Verifique se você está logado antes de preencher um prontuário.
 
 
-Escrito por Rafael Nascimento(RM553117) e Vinicius Taiki(RM554426) da 1ESPA
+Escrito por Rafael Nascimento(RM553117) e Vinicius Taiki(RM554426) da 1ESPA.

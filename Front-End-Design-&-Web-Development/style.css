@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background-color: seagreen;
+  background-color: rgb(45, 92, 65);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,7 +51,7 @@
 
 #container {
 
-  margin-top: 80px;
+  margin-top: 90px;
   scroll-margin-top: 80px;
   display: flex;
   flex-direction: column;
@@ -85,14 +85,13 @@ p {
 }
 
 .footer {
+
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background-color: seagreen;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: rgb(45, 92, 65);
+  color: white;
 }
 
 #contato-container {
@@ -103,7 +102,7 @@ p {
   background: #fff;
   border-radius: 10px;
   max-height: 450px;
-
+  margin-bottom: 40px;
 }
 
 .form-control {
@@ -158,10 +157,7 @@ textarea {
   
 }
 
-.image {
-  width: 200px;
-  margin-top: 30px;
-}
+
 
 .section-contato h1 {
   font-size: 76px;
@@ -182,7 +178,7 @@ textarea {
   width: 450px;
   position:absolute;
   top: 150px;
-  right: 120px;
+  right: 200px;
   z-index: -5;
   margin-left: 30px;
 
@@ -197,20 +193,98 @@ textarea {
 
 }
 
-.fotos {
-  width: 60%;
-  margin: 0px auto;
+.container-rm {
+  position: absolute;
   
+  right: 350px;
+  top: 250px;
+  width: 500px;
+  height: 600px;
+ 
+  font-size: 30px;
+}
+
+.foto-rm {
+  width: 250px;
+}
+
+#pagina-atual {
+  color: lightgreen;
 }
 
 th {
-  padding: 5px;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 td {
-  max-width: fit-content;
+  padding-bottom: 10px;
 }
 
-.fotos-container {
+#container-problema{
+  margin-top: 80px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+}
+
+#container-problema p{
+  margin-bottom: 30px;
+}
+
+.grafico {
+  width: 500px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.footer-content {
+  display: flex;
   justify-content: space-between;
+}
+
+.footer-content p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.arduino {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+
+}
+
+.arduino p {
+  margin-bottom: 30px;
+}
+
+#python {
+  margin-top: 80px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+}
+
+#python p {
+  margin-bottom: 30px;
 }

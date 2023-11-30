@@ -11,7 +11,7 @@
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background-color: seagreen;
+  background-color: rgb(45, 92, 65);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -85,14 +85,13 @@ p {
 }
 
 .footer {
+
   top: 0;
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background-color: seagreen;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: rgb(45, 92, 65);
+  color: white;
 }
 
 #contato-container {
@@ -220,4 +219,72 @@ th {
 
 td {
   padding-bottom: 10px;
+}
+
+#container-problema{
+  margin-top: 80px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+}
+
+#container-problema p{
+  margin-bottom: 30px;
+}
+
+.grafico {
+  width: 500px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  border: 1px solid black;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.arduino {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+
+}
+
+.arduino p {
+  margin-bottom: 30px;
+}
+
+#python {
+  margin-top: 80px;
+  scroll-margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 0px 130px 0px 130px;
+  margin-bottom: 50px;
+}
+
+#python p {
+  margin-bottom: 30px;
 }
